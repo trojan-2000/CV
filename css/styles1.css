@@ -1,0 +1,185 @@
+/*-------------------------------------------classes---------------------------------------------------*/
+.greeting{
+background-color: #e4f9f5;
+padding:20px 10px 10px 10px;
+margin:0px;
+height:600px;
+}
+.upperCloud{
+	height: 100px;
+	width: 100px;
+	top:30px;
+	position: absolute;
+	left:70%;
+}
+
+.heading{
+padding-top: 90px;
+font-size: 2rem;
+font-family: Bradley Hand, cursive;
+margin-top: 0;
+}
+
+.lowerCloud{
+	height: 100px;
+	width: 100px;
+	top:200px;
+	position: absolute;
+	left:25%;
+}
+.mountainPic{
+margin-top: 70px;
+height:320px;
+
+position:absolute;
+left:470px;
+right:400px;
+width:350px;
+padding-bottom: 10px;
+}
+.intro{
+padding-top: 200px;
+height: 600px;
+}
+.introImages{
+	 display: inline-block; 
+	 margin-right: 10px;
+	 margin-left: 10px;
+}
+.myPic{
+	border-radius: 100%;
+}
+.education{
+background-color: #e8ffff;
+padding-top:50px;
+height: 600px;
+}
+.eduImages{
+	 display: inline-block; 
+	 margin-left: 30px;
+	 margin-right: 30px;
+}
+.education>table{
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+.skills{
+padding-top: 50px;
+padding-bottom: 30px;
+height: 600px;
+}
+.skillPic{
+position: absolute;
+width: 60%;
+height: 80%;
+opacity: 0.1;
+left:20%;
+right:20%;
+}
+.skillList{
+	/*width:50%;*/
+}
+
+.achievements{
+	padding-top: 50px;
+	height:600px;
+}
+
+.achievementsPic{
+	position: absolute;
+	opacity: 0.2;
+	left:10%;
+	height: 400px;
+	width: 80%;
+}
+.projects{
+	padding-top: 50px;
+	height: 600px;
+}
+.projectPic{
+	opacity:0.2;
+	position: absolute;
+	top:3620px;
+	width: 80%;
+	height:80%;
+	left:10%;
+
+}
+.hobbies{
+	height: 600px;
+	padding-top: 50px;
+}
+.hobbyPic{
+	opacity: 0.2;
+	position:absolute;
+	width:80%;
+	height: 80%;
+	left:10%;
+	top:4320px;
+}
+.hobbies>ul{
+	width: 50%;
+	margin-left: 25%;
+}
+.contact{
+	background-color: #709fb0;
+	padding-top: 30px;
+	margin-bottom: 0px;
+	padding-bottom: 30px;
+	height: 200px;
+}
+.linkedIn{
+	height:30px;
+	width: 30px;
+
+}
+/*--------------------------------------------elements-------------------------------------------*/
+
+body{
+	text-align: center;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+h3{
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+img{
+height:210px;
+width:200px;
+padding-top: 20px;
+}
+p{
+	width:50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	line-height: 20px;
+}
+hr{
+border: 10px 0px 0px 0px;
+border-style: dotted none none none;
+border-color: grey;
+width: 10%;
+border-width: 5px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+td{
+padding:10px;
+}
+table{
+	width:50%;
+	margin: auto 25% auto 25%;
+}
+li{
+	padding-top: 20px;
+}
+h4{
+	width:40%;
+	margin-left: 30%;
+}
+ol{
+	list-style-position: inside;
+}
